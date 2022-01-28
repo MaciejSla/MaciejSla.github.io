@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1e21;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 1024px;
+  color: white;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body div.header {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div.header .logo {
+  background-color: #008080;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #242526;
+  border-radius: 50%;
+}
+
+body div.header .change-photo {
+  position: absolute;
+}
+
+body div.header .change-photo .fa-camera {
+  position: relative;
+  top: 105px;
+  left: 125px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+body div.header .name {
+  position: relative;
+  left: 20px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+body div.nav {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #242526;
+  border-radius: 10px;
+}
+
+body div.nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 10px 10px 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.nav .menu .menu-list {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body div.nav .menu .menu-list .menu-item {
+  list-style-type: none;
+}
+
+body div.nav .menu .menu-list .menu-item > a {
+  text-decoration: none;
+  color: #8c8c8c;
+}
+
+body div.nav .menu .buttons {
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body div.nav .menu .buttons .btn {
+  background-color: #3a3b3c;
+  color: #e6e6e6;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+body div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+body div.container .left .footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #8c8c8c;
+  margin-top: 20px;
+  font-size: 0.85em;
+}
+
+body div.container .left .footer ul li:nth-of-type(1) {
+  border-right: 1px solid #8c8c8c;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+body div.container .left .box {
+  background-color: #242526;
+  border-radius: 10px;
+  width: 380px;
+  padding: 20px;
+}
+
+body div.container .left .box .photos {
+  margin-top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 400px;
+}
+
+body div.container .left .box .photos .photo {
+  border-radius: 10px;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(1) {
+  background-color: lightblue;
+  color: lightblue;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(2) {
+  background-color: lightcoral;
+  color: lightcoral;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(3) {
+  background-color: lightsteelblue;
+  color: lightsteelblue;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(4) {
+  background-color: lightgreen;
+  color: lightgreen;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(5) {
+  background-color: lightsalmon;
+  color: lightsalmon;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(6) {
+  background-color: lightslategrey;
+  color: lightslategrey;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(7) {
+  background-color: lightgray;
+  color: lightgray;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(8) {
+  background-color: lightpink;
+  color: lightpink;
+}
+
+body div.container .left .box .photos .photo:nth-of-type(9) {
+  background-color: lightseagreen;
+  color: lightseagreen;
+}
+
+body div.container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+}
+
+body div.container .right .box {
+  color: #d9d9d9;
+  background-color: #242526;
+  border-radius: 10px;
+  padding: 20px;
+  letter-spacing: 0.4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body div.container .right .box .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2px;
+  margin: 0px -20px 0 -20px;
+}
+
+body div.container .right .box .photos .photo {
+  background-color: #b0b3b8;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  height: 200px;
+}
+
+body div.container .right .box h3 {
+  color: white;
+  margin-bottom: -10px;
+  font-size: 15px;
+}
+
+body div.container .right .box a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+body div.container .right .box:last-of-type {
+  text-align: center;
+}
+/*# sourceMappingURL=zad_03.css.map */
