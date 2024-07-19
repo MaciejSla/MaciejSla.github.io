@@ -1,0 +1,1 @@
+import{d as e,a as s,e as t,o as a,g as n}from"./index-DCYlf1F2.js";const o={class:"flex items-center justify-center"},m=e({__name:"SermonsView",setup(c){return(r,_)=>(a(),s("div",o,[t(n)]))}});export{m as default};

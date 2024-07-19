@@ -1,0 +1,1 @@
+import{_ as e}from"./UnderConstruction.vue_vue_type_script_setup_true_lang-B3ejwhbD.js";import{d as o,c as a,o as r}from"./index-DCYlf1F2.js";const m=o({__name:"BlogView",setup(t){return(_,c)=>(r(),a(e))}});export{m as default};
